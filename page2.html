@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ارتباط با ما</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="eco2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Noto+Sans+Arabic:wght@100..900&family=Poetsen+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+<body>
+    <video autoplay muted loop class="video-background"  id="background-video">
+        <source src="200bda5adcd5a5b271ef5966a3acb123.mp4" type="video/mp4">
+    </video>
+    <header class="header" id="header">
+        <a href="#" class="logo"></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+          </div>
+        <nav class="navbar">
+            <a href="#" class="active"> ارتباط با من </a>
+            <a href="page3.html"><i class="fas fa-pencil-alt" style="color: #66ff00"></i> بلاگ ها</a>
+            <a href="about us.html"><i class="fa-solid fa-user" style="color: #66ff00;"></i> درباره من</a>
+            <a href="page1.html" ><i class="fa fa-fw fa-home" style="color: #66ff00;"></i> خانه</a>
+            <i class="fas fa-envelope" style="color: #66ff00; font-size: 1.7rem;"></i>
+            <span class="active-nav"></span>
+        </nav>
+    </header>
+  
+    <section class="contact" id="contact">
+        <h2 class="heading">نظر خود را <span>بنویسید </span></h2>
+        <form id="contactForm" action="https://api.web3forms.com/submit" method="POST" onsubmit="return validateForm()">
+            <div class="input-box">
+                <div class="input-field">
+                <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                    <input type="text" name="full_name" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="email" name="email" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" name="mobile_number" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+            <div class="textarea-field">
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <span class="focus"></span>
+            </div>
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <section class="address" id="address">
+        <h2 class="heading">آدرس <span> من </span></h2>
+
+        <div class="address-content">
+            <h3>در Modern Edu، ما معتقدیم که ارتباط با شما، ارزشمندترین دارایی ماست. هدف ما فراهم کردن بهترین تجربه ممکن برای شما در مسیر یادگیری مهارت‌های اقتصادی نوین است. اگر سوالی دارید، به راهنمایی نیاز دارید یا می‌خواهید نظرات و پیشنهادات خود را با ما به اشتراک بگذارید، با ما در ارتباط باشید.</h3>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="heading" style="font-size: 3.5rem;">ایمیل <h3>dianafotouhi22@gmail.com</h3></h2>
+            <br>
+            <h2 class="heading" style="font-size: 3.5rem;">تلفن <h3>+98 919 671 3054</h3></h2>
+            <br>
+            <h2 class="heading" style="font-size: 3.5rem;">آدرس <h3>استان قزوین/شهرستان قزوین/ناحیه2</h3></h2>
+            <br>
+            <br>
+
+    
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Diana fotouhi | All Rights Reserved.</p>
+
+
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+
+        </div>
+    </footer>
+
+    <script src="script3.js"></script>
+
+
+        </form>
+    </section>
+</body>
+</html>
